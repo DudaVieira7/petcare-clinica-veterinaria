@@ -44,7 +44,7 @@
 }
 
 .container_servicos:hover{
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0 0 2px #fff, 0 0 10px #8863a059, 0 0 40px #2319581d;
 
 }

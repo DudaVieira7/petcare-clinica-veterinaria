@@ -37,6 +37,8 @@
             </nav>
             <button class="ligar" id="ligar1"><i class="fa-solid fa-heart-pulse"></i> Emergência 24h</button>
         </div>
+    </header>
+    <main>
         
         <section class="vet-inicio">
         <div class="veterinaria-container">
@@ -58,11 +60,12 @@
         
         </div>
         </section>
-    </header>
+    </main>
+   
 
             <br><h4 id="sobre" style="text-align: center; margin-top: 50px;"><i class="fa-solid fa-paw"></i>Sobre a PetCare</h4>
 
-    <div class="sobre">
+    <section class="sobre">
 
         <div class="container_sobre">
             <h2>PetCare: Cuidando do Seu Melhor Amigo Desde 2013</h2><br><br><br>
@@ -75,9 +78,9 @@
         <div class="container_sobre">
             <img id="animais" src="/imagens/_dog__cat__chat__chien__lapin__bouledogue__cobaye-removebg-preview.png" alt="animais">
         </div>
-    </div>
+    </section>
    
-        <div  class="petcare_clinica">
+        <section  class="petcare_clinica">
         <!--imagens da petcare franca/ fazer um carrossel com as imagens-->
         <br><br><h2 style="text-align: center; color: #3f237fcb; letter-spacing: 1.5px;">Ambiente planejado exclusivamente para o bem estar do seu Pet</h2><br><br>
         <div class="slider">
@@ -134,14 +137,12 @@
                 <label for="radio5" class="manual-btn"></label>
                 <label for="radio6" class="manual-btn"></label>
             </div>
-        </div>
-
-
-     </div>
+        </section>
+        
     <br><br> <h4><i class="fa-solid fa-paw"></i>Nossos serviços</h4>
     
 
-    <div id="servicos">
+    <section id="servicos">
         
         <div class="container_servicos">
             <div class="atendimento">
@@ -202,15 +203,15 @@
                 <span class="pets-atendimento"><i class="fa-solid fa-cat"></i></span><br>
             </div>
         </div>
-    </div> 
+    </section> 
     
-    <div id="banho">
+    <section id="banho">
         <!--Colocar a imagem do dos animais tomando banho  -->
 
-        <div class="container_banho">
+        <figure class="container_banho">
             
             <img class="imagem_banho" src="/imagens/banho.jpg" alt="banho_animal">
-        </div>
+        </figure>
 
         <!---foto 1-->
         <div class="container_banho">
@@ -220,17 +221,17 @@
 
             <button class="ligar"><i class="fa-brands fa-whatsapp"></i>Agende seu atendimento</button>
         </div>
-        <div class="container_banho">
+        <figure class="container_banho">
 
             <img class="imagem_banho" src="/imagens/tosa.png" alt="tosa_animal">
-        </div>
+        </figure>
 
-    </div>
+    </section>
 
-    <div id="clinica">
-        <div class="clinica_container">
+    <section id="clinica">
+        <figure class="clinica_container">
             <img id="img-atendimento" src="/imagens/vets/Captura de tela 2025-12-24 133529.png" alt="atendimento">
-        </div>
+        </figure>
         <div class="clinica-text">
             <h4 style="color:#dc385ed4 ;"><i class="fa-solid fa-paw"></i>Tradição, Amor e Cuidado!</h4><br>
 
@@ -253,9 +254,9 @@
             <button class="ligar"><i class="fa-brands fa-whatsapp"></i>Agendar consulta</button>
        
         </div>
-    </div>
+    </section>
     <h4><i class="fa-solid fa-paw"></i>Nossa equipe</h4><br>
-    <div id="vets">
+    <section id="vets">
     <h2>Conheça os Profissionais Que Trabalham Conosco</h2>
     
     <div class="vet-slider">
@@ -278,50 +279,67 @@
         </div>
 
         <div class="vet-slide" id="trilho">
-            <div class="slide-vet">
+            <figure class="slide-vet">
                 <img src="/imagens/vets/dra_anapaulasouzalima.jpg" alt="Dra. Ana Paula">
-                <h3>Dra. Ana Paula</h3>
-                 <p>Clínica Geral e Vacinação</p>
-            </div>
-            <div class="slide-vet">
+                <figcaption>
+                    <h3>Dra. Ana Paula</h3>
+                    <p>Clínica Geral e Vacinação</p>
+                </figcaption>
+            </figure>
+            <figure class="slide-vet">
                 <img src="/imagens/vets/dr_carlosalbertoferreira.png" alt="Dr. Carlos Alberto">
-                <h3>Dr. Carlos Alberto</h3>
-                <p>Cirurgião e Castração</p>
-            </div>
-            <div class="slide-vet">
+                <figcaption>
+                    <h3>Dr. Carlos Alberto</h3>
+                    <p>Cirurgião e Castração</p>
+                </figcaption>
+            </figure>
+            <figure class="slide-vet">
                 <img src="/imagens/vets/dra_marinagolcalvesdias.jpg" alt="Dra. Marina">
-                <h3>Dra. Marina</h3>
-                <p>Medicina Felina</p>
+                <figcaption>
+                    <h3>Dra. Marina</h3>
+                    <p>Medicina Felina</p>
+                </figcaption>
                 <p></p>
-            </div>
-            <div class="slide-vet">
+            </figure>
+            <figure class="slide-vet">
                 <img src="/imagens/vets/dr_ricardomendesbarros.jpg" alt="Dr. Ricardo">
-                <h3>Dr. Ricardo</h3>
-                <p>Ortopedia e Traumatologia</p>
-            </div>
-            <div class="slide-vet">
+                <figcaption>
+                    <h3>Dr. Ricardo</h3>
+                    <p>Ortopedia e Traumatologia</p>
+                </figcaption>
+
+            </figure>
+            <figure class="slide-vet">
                 <img src="/imagens/vets/download (2).jpg" alt="Dr. Altair">
-                <h3>Dr. Altair</h3>
-                <p>Dermatologia</p>
-            </div>
-            <div class="slide-vet">
+                <figcaption>
+                    <h3>Dr. Altair</h3>
+                    <p>Dermatologia</p>
+                </figcaption>
+            </figure>
+            <figure class="slide-vet">
                 <img src="/imagens/vets/A vet.jpg" alt="Dra. Débora">
-                <h3>Dra. Débora</h3>
-                <p>Odontologia e Estética</p>
-            </div>
-            <div class="slide-vet">
+                <figcaption>
+                    <h3>Dra. Débora</h3>
+                    <p>Odontologia e Estética</p></figcaption>
+            </figure>
+            <figure class="slide-vet">
                 <img src="/imagens/vets/download (3).jpg" alt="Dra. Emilly">
-                <h3>Dra. Emilly</h3>
-                <p>Pediatria e Nutrição</p>
-            </div>
-            <div class="slide-vet">
+                <figcaption>
+                    <h3>Dra. Emilly</h3>
+                    <p>Pediatria e Nutrição</p>
+                </figcaption>
+            </figure>
+            <figure class="slide-vet">
                 <img src="/imagens/vets/Dr_ Mike 🩺🌹.jpg" alt="Dr. Mike">
-                <h3>Dr. Mike</h3>
-                <p>Emergencista 24h</p>
-            </div>
+                <figcaption>
+                    <h3>Dr. Mike</h3>
+                    <p>Emergencista 24h</p>
+                </figcaption>
+            </figure>
         </div>
     </div>
-</div>
+    </section>
+
 
 
     <section id="perguntas">
@@ -487,7 +505,7 @@
 
 
     </section>
-    <div id="localizacao">
+    <section id="localizacao">
         <h2 style="text-align: center; padding: 30px; font-size: 2rem;">Como Chegar</h2>
 
         <button id="chegar"><i class="fa-solid fa-map-location-dot"></i><a href="https://maps.app.goo.gl/pEzYrQAiFZqdXhUu7"> ROTAS DO GOOGLE MAPS</a></button>
@@ -495,10 +513,11 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.1756621566865!2d-47.40449352445403!3d-20.539992380989865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a62fbb21acc3%3A0x296057e2ceb61245!2sR.%20Monsenhor%20Rosa%2C%201545%20-%20Centro%2C%20Franca%20-%20SP%2C%2014400-670!5e0!3m2!1spt-BR!2sbr!4v1766512051165!5m2!1spt-BR!2sbr" width="90%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
 
-    </div>
+    </section>
 
     <footer>
         <div class="footer-container">
+
             <h3 id="contato">Links Rápidos</h3>
             <div class="link-container">
                 <p><span class="material-symbols-outlined">arrow_forward_ios</span><a href="#inicio">início</a></p>
