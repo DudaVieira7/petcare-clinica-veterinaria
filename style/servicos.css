@@ -5,9 +5,10 @@
     justify-content: space-between;
     gap: 35px;
     background-color: rgb(240, 238, 252);
-    height: 775px;
+    height: auto;
     align-items: center;
     justify-content: center;
+    margin: 20px;
     
 }
 
@@ -41,6 +42,33 @@
 
     
 
+}
+
+@media screen and  (max-width:370px){
+    #servicos{
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container_servicos{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 30px;
+        margin-top: 20px;
+    }
+    .atendimento{
+        width: 90%;
+        padding: 0 20px;
+    }
+
+    #vet-cat{
+        width: 62%;
+    }
+    
 }
 
 .container_servicos:hover{

@@ -1,10 +1,10 @@
 #banho{
     display: flex;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-around;
+   
     align-items: center;
     background: radial-gradient( #1d1342,#19073d);
-    height: 410px;
+    
     
     
     
@@ -62,5 +62,57 @@
 .container_banho button:hover{
     background: #ff416d;
     box-shadow: 0 0 2px #fff, 0 0 10px #dc385e, 0 0 20px #ff416d;
+}
+
+
+@media screen and (max-width: 370px) {
+    .imagem_banho{
+        width: 200px;
+        height: 200px;
+        border-radius: 70px;
+       
+        margin-right: auto;
+
+    }
+
+    #banho{
+        align-items: center;
+        width: 90%;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: end;
+        
+    }
+
+    .container_banho{
+        width: 30%;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:340px) {
+    #banho{
+        width: 85%;
+        margin-right: auto;
+        padding: 0 100px;
+        
+    }
+
+    .container_banho{
+        width: 30%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container_banho:first-child{
+        justify-content: end;
+    }
+    
 }
 

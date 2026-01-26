@@ -111,6 +111,7 @@ iframe{
         align-items: center;
         justify-content: center;
         position: absolute;
+        
     }
 }
 
@@ -130,9 +131,81 @@ iframe{
 }
 
 
-@media (max-width:370px){
+@media screen and (max-width: 370px){
     #servicos{
     display: block;
     
+    
 }
+.sobre{
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.container_sobre{
+    padding: 20px;
+    width: 50%;
+    
+}
+
+#inicio{
+    
+    justify-content: center;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.nav-list{
+    
+    width: 30%;
+    justify-content: end;
+    margin-left: 60px;
+}
+header{
+    width: 90%;
+    align-items: center;
+
+}
+
+.vet-inicio{
+    justify-content: center;
+}
+.veterinaria-container{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.vet-inicio .veterinaria-container:first-child {
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider{
+    align-items: center;
+    margin-right: auto;
+    
+}
+
+ #ligar1{
+    margin-right: 250px
+    
+}
+
+#servicos{
+    height: auto;
+    padding: 20px 0px;
+    width: 100%;
+    margin: 0;
+    gap: 10px;
+    
+}
+.container_servicos{
+    height: auto;
+    padding: 0px 5px;
+    margin-bottom: 20px;
+    width: 30%;
+    display: block;
+
+}
+
+
 }
